@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "products",
   "info": {
-    "name": "Product"
+    "name": "Product",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -50,6 +51,13 @@
     "summary": {
       "type": "text",
       "required": true
+    },
+    "medidas": {
+      "type": "text",
+      "required": false
+    },
+    "colores": {
+      "type": "text"
     }
   }
 }
