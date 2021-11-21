@@ -22,6 +22,9 @@
     "addressShipping": {
       "type": "json",
       "required": true
+    },
+    "totalPayment": {
+      "type": "decimal"
     }
   }
 }
